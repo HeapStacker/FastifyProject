@@ -1,0 +1,13 @@
+POST http://0.0.0.0:4000/users/register/ HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "string",
+  "lastName": "string",
+  "email": "fleuhbciuhfiausehfbiuehsnpiafuh@example.com",
+  "username": "easlfouhaesoifuhasičeufh",
+  "password": "string",
+  "dateOfBirth": "2021-12-08",
+  "country": "string",
+  "city": "string"
+}

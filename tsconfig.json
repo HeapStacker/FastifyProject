@@ -1,0 +1,11 @@
+{
+    "extends": "fastify-tsconfig",
+    "compilerOptions": {
+        "outDir": "dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "lib": ["ES6", "DOM"]
+    },
+    "include": ["src/**/*.ts"]
+}
